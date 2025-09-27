@@ -38,7 +38,7 @@ export const HeroSection: React.FC = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-pink-800 to-blue-900 dark:from-gray-900 dark:via-purple-900 dark:to-indigo-900 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-pink-800 to-blue-900 overflow-hidden">
       {/* Geometric Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-10 left-10 w-20 h-20 border border-white/20 rotate-45 animate-pulse"></div>

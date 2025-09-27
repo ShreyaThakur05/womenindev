@@ -21,7 +21,7 @@ export default function OrganizersPage() {
       </section>
 
       {/* Organizers Grid */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {ORGANIZERS.map((organizer, index) => (
@@ -89,18 +89,18 @@ export default function OrganizersPage() {
       </section>
 
       {/* Team Message */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
             A Message from the Team
           </h2>
           
-          <div className="bg-white dark:bg-gray-700 p-8 rounded-2xl shadow-sm">
-            <blockquote className="text-lg text-gray-600 dark:text-gray-300 italic mb-6">
+          <div className="bg-white p-8 rounded-2xl shadow-sm">
+            <blockquote className="text-lg text-gray-600 italic mb-6">
               "We believe that diversity drives innovation, and women bring unique perspectives that are essential for solving tomorrow's challenges. WomenInDev 2.0 is our commitment to creating a platform where talented women can showcase their skills, learn from each other, and build lasting connections in the tech community."
             </blockquote>
             
-            <p className="text-gray-900 dark:text-white font-semibold">
+            <p className="text-gray-900 font-semibold">
               - The WomenInDev 2.0 Organizing Team
             </p>
           </div>
@@ -108,22 +108,22 @@ export default function OrganizersPage() {
       </section>
 
       {/* Contact Information */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Get in Touch
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
+            <p className="text-xl text-gray-600">
               Have questions? We're here to help!
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Mail className="w-8 h-8 text-primary-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Email Us</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">For general inquiries and support</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
+              <p className="text-gray-600 mb-4">For general inquiries and support</p>
               <a 
                 href="mailto:tantrafiesta.event@iiitn.ac.in"
                 className="text-primary-500 hover:text-primary-600 font-medium"
@@ -132,10 +132,10 @@ export default function OrganizersPage() {
               </a>
             </div>
 
-            <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Phone className="w-8 h-8 text-primary-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Call Us</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">For urgent matters and support</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
+              <p className="text-gray-600 mb-4">For urgent matters and support</p>
               <div className="space-y-1">
                 <a 
                   href="tel:+91-8668806190"
@@ -152,10 +152,10 @@ export default function OrganizersPage() {
               </div>
             </div>
 
-            <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
               <MapPin className="w-8 h-8 text-primary-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Join Community</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">Connect with other participants</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Join Community</h3>
+              <p className="text-gray-600 mb-4">Connect with other participants</p>
               <a 
                 href="https://wa.me/group"
                 target="_blank"
