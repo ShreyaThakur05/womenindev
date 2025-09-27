@@ -14,7 +14,7 @@ export default function ManageUsersPage() {
         const response = await fetch('/api/users');
         if (response.ok) {
           const data = await response.json();
-          setUsers(data.users.map((u: any) => ({ ...u, id: u._id })));
+          setUsers(data.users.map((u: any) => ({ ...u, id: u._id })) as any);
         }
       } catch (error) {
         console.error('Error fetching users:', error);
@@ -41,7 +41,7 @@ export default function ManageUsersPage() {
         });
         if (response.ok) {
           const data = await response.json();
-          setUsers([...users, { ...data.user, id: data.user._id }]);
+          setUsers([...users, { ...data.user, id: data.user._id }] as any);
           setNewUser({ name: '', teamName: '', username: '', password: '' });
         }
       } catch (error) {
