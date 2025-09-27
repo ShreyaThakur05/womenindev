@@ -6,7 +6,7 @@ import { ArrowLeft, Plus, Trash2 } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ManageUsersPage() {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState<any[]>([]);
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -50,7 +50,7 @@ export default function ManageUsersPage() {
     }
   };
 
-  const handleDeleteUser = async (id: string) => {
+  const handleDeleteUser = async (id: any) => {
     try {
       const response = await fetch('/api/users', {
         method: 'DELETE',
@@ -58,7 +58,7 @@ export default function ManageUsersPage() {
         body: JSON.stringify({ id })
       });
       if (response.ok) {
-        setUsers(users.filter(user => user.id !== id));
+        setUsers((users as any).filter((user: any) => user.id !== id));
       }
     } catch (error) {
       console.error('Error deleting user:', error);
