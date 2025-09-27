@@ -18,22 +18,22 @@ export default function AboutPage() {
       </section>
 
       {/* Event Overview */}
-      <section className="py-20 bg-white dark:bg-gray-900">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Event Overview</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Event Overview</h2>
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+            <p className="text-gray-600  mb-6 text-lg leading-relaxed">
               WomenInDev 2.0 is a premier hackathon designed exclusively for women in technology. Building on the success of our inaugural event, this year's competition promises to be bigger, better, and more impactful than ever before.
             </p>
 
-            <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+            <p className="text-gray-600  mb-6 text-lg leading-relaxed">
               Our mission is to create a supportive environment where women can showcase their technical skills, collaborate on innovative solutions, and connect with like-minded professionals in the tech industry. We believe that diversity drives innovation, and this event is our contribution to fostering that diversity.
             </p>
 
-            <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed">
+            <p className="text-gray-600  mb-8 text-lg leading-relaxed">
               Over 24 intensive hours, participants will work in teams to solve real-world challenges, guided by industry experts and supported by a community of peers. Whether you're a seasoned developer or just starting your tech journey, WomenInDev 2.0 offers something valuable for everyone.
             </p>
           </div>
