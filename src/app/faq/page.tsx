@@ -137,11 +137,11 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white dark:bg-gray-900">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {faqs.map((category, categoryIndex) => (
             <div key={categoryIndex} className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 pb-2 border-b-2 border-primary-500">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-primary-500">
                 {category.category}
               </h2>
               
@@ -151,12 +151,12 @@ export default function FAQPage() {
                   const isOpen = openItems.includes(currentIndex);
                   
                   return (
-                    <div key={faqIndex} className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden">
+                    <div key={faqIndex} className="bg-gray-50 rounded-lg overflow-hidden">
                       <button
                         onClick={() => toggleItem(currentIndex)}
-                        className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                        className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors"
                       >
-                        <span className="font-semibold text-gray-900 dark:text-white pr-4">
+                        <span className="font-semibold text-gray-900 pr-4">
                           {faq.q}
                         </span>
                         {isOpen ? (
@@ -168,7 +168,7 @@ export default function FAQPage() {
                       
                       {isOpen && (
                         <div className="px-6 pb-4">
-                          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                          <p className="text-gray-600 leading-relaxed">
                             {faq.a}
                           </p>
                         </div>

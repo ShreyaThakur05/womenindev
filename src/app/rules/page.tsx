@@ -18,7 +18,7 @@ export default function RulesPage() {
       </section>
 
       {/* Eligibility */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-8">
             <Users className="w-8 h-8 text-primary-500 mr-3" />
@@ -58,7 +58,7 @@ export default function RulesPage() {
       </section>
 
       {/* Team Formation */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-8">
             <Users className="w-8 h-8 text-primary-500 mr-3" />
@@ -91,7 +91,7 @@ export default function RulesPage() {
       </section>
 
       {/* Technology Stack */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-8">
             <Code className="w-8 h-8 text-primary-500 mr-3" />
@@ -127,7 +127,7 @@ export default function RulesPage() {
       </section>
 
       {/* Submission Requirements */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-8">
             <FileText className="w-8 h-8 text-primary-500 mr-3" />
@@ -173,7 +173,7 @@ export default function RulesPage() {
       </section>
 
       {/* Evaluation Criteria */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-8">
             <Trophy className="w-8 h-8 text-primary-500 mr-3" />
@@ -216,7 +216,7 @@ export default function RulesPage() {
       </section>
 
       {/* Code of Conduct */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Code of Conduct</h2>
           

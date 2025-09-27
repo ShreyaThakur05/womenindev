@@ -28,13 +28,13 @@ export const JudgesSection: React.FC = () => {
     );
   }
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-900">
+    <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Meet Our Judges
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Industry experts who will evaluate your innovative solutions
           </p>
         </div>
@@ -42,7 +42,7 @@ export const JudgesSection: React.FC = () => {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl">
           {JUDGES.map((judge, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700">
+            <div key={index} className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100">
               {/* Profile Image */}
               <div className="relative h-64 bg-gradient-to-br from-primary-500 to-secondary-500">
                 <img 
@@ -60,7 +60,7 @@ export const JudgesSection: React.FC = () => {
               {/* Content */}
               <div className="p-8">
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
                     {judge.name}
                   </h3>
                   
@@ -69,11 +69,11 @@ export const JudgesSection: React.FC = () => {
                   </div>
                 </div>
                 
-                <p className="text-primary-600 dark:text-primary-400 font-semibold mb-4 text-center">
+                <p className="text-primary-600 font-semibold mb-4 text-center">
                   {judge.designation}
                 </p>
 
-                <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed text-center">
+                <p className="text-gray-600 mb-8 leading-relaxed text-center">
                   {judge.about}
                 </p>
 
