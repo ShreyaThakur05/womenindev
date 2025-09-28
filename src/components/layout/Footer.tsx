@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
               Empowering women in technology through innovation, collaboration, and excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="https://wa.me/group" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://chat.whatsapp.com/EkmOTArQIppJR7QOjSlqG4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 WhatsApp Community
               </a>
             </div>

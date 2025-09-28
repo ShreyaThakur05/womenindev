@@ -157,7 +157,7 @@ export default function OrganizersPage() {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Join Community</h3>
               <p className="text-gray-600 mb-4">Connect with other participants</p>
               <a 
-                href="https://wa.me/group"
+                href="https://chat.whatsapp.com/EkmOTArQIppJR7QOjSlqG4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-500 hover:text-primary-600 font-medium"
@@ -181,7 +181,7 @@ export default function OrganizersPage() {
             Be part of an amazing community of women in technology
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/group" target="_blank" rel="noopener noreferrer">
+            <a href="https://chat.whatsapp.com/EkmOTArQIppJR7QOjSlqG4" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-white text-primary-500 hover:bg-gray-100">
                 Join WhatsApp Group
               </Button>
