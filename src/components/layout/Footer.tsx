@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 WomenInDev 2.0. All rights reserved. | Made by Shreya Thakur</p>
+          <p>&copy; 2025 WomenInDev 2.0. All rights reserved. | Made by Shreya Thakur</p>
         </div>
       </div>
     </footer>
